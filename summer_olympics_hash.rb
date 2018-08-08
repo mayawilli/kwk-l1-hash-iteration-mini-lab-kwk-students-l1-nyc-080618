@@ -1,5 +1,5 @@
 
-def create_olympics_hash
+def create_olympics_hash (summer_olmpics)
   # Implement this method so that it returns a hash with the data provided on README.md
   summer_olmpics = {}
   summer_olmpics[:Sydney]=2000
