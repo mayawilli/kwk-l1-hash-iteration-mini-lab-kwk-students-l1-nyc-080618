@@ -37,7 +37,7 @@ def iterate_through_keys
   summer_olympics=add_a_key_value_pair
  
     puts summer_olympics.keys 
-    summer_olympics.upcase 
+   
   
   
 end
