@@ -37,9 +37,9 @@ def iterate_through_keys
   
   summer_olympics=add_a_key_value_pair
  
-    puts summer_olympics.keys 
+    city_array = summer_olympics.keys 
    
-  summer_olympics.each do |cities|
+  city_array.each do |cities|
     puts cities.upcase 
   end
   
