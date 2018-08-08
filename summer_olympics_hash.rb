@@ -2,10 +2,10 @@
 def create_olympics_hash 
   # Implement this method so that it returns a hash with the data provided on README.md
   summer_olympics_hash = {}
-  summer_olympics_hash[:Sydney]=2000
-  summer_olympics_hash[:Athens]= 2004
-  summer_olympics_hash[:Beijing]= 2008
-  summer_olympics_hash[:London]=2012
+  summer_olympics_hash["Sydney"]=2000
+  summer_olympics_hash["Athens"]= 2004
+  summer_olympics_hash["Beijing"]= 2008
+  summer_olympics_hash["London"]=2012
   puts summer_olympics_hash
 end
 
