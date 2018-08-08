@@ -22,7 +22,7 @@ add_a_key_value_pair
 def iterate_through_hash
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
-summer_olympics = add_a_key_value_pair
+  summer_olympics = add_a_key_value_pair
   summer_olympics.each do |year, place|
     puts "The #{year} summer olympics took place in #{place}"
 end
