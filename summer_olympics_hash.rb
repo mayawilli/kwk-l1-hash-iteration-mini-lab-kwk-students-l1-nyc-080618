@@ -6,9 +6,9 @@ def create_olympics_hash
   summer_olympics_hash["Athens"]= 2004
   summer_olympics_hash["Beijing"]= 2008
   summer_olympics_hash["London"]=2012
-  return summer_olympics_hash
+  puts summer_olympics_hash
 end
-
+create_olympics_hash
 def add_a_key_value_pair
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
 end
