@@ -1,11 +1,11 @@
 
-def create_olympics_hash (summer_olmpics)
+def create_olympics_hash 
   # Implement this method so that it returns a hash with the data provided on README.md
-  summer_olmpics = {}
-  summer_olmpics[:Sydney]=2000
-  summer_olmpics[:Athens]= 2004
-  summer_olmpics[:Beijing]= 2008
-  summer_olmpics[:London]=2012
+  summer_olympics_hash = {}
+  summer_olympics_hash[:Sydney]=2000
+  summer_olympics_hash[:Athens]= 2004
+  summer_olympics_hash[:Beijing]= 2008
+  summer_olympics_hash[:London]=2012
 end
 puts summer_olmpics
 def add_a_key_value_pair
